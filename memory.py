@@ -26,7 +26,6 @@ def mouseclick(position):
             card1 = card_num
             exposed[card1] = True
             state = 1
-            counter += 1
     elif state == 1:
         if exposed[card_num] == False:
             card2 = card_num
